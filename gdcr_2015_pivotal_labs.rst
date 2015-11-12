@@ -33,11 +33,9 @@ TO DO ON DAY:
 
     ARRANGE CAMERA
 
-TODO:
-
-    Prepare GIST with all practices (also with not included in the presentation)
-
-    Add some notes to the slides (find TODO)
+GISTS:
+    Rules: http://git.io/v8jly
+    Activities:
 
 ----
 
@@ -176,6 +174,8 @@ Conway's Game of Life
 
 .. note::
 
+    http://git.io/v8jly
+
     The universe of the Game of Life is an infinite two-dimensional orthogonal grid of square cells,
     each of which is in one of two possible states, live or dead.
 
@@ -215,6 +215,13 @@ Learn your domain
 
     * Remember to DELETE THE CODE
 
+.. note::
+    Navigator-driver
+    Pair programming consists of two programmers sharing a single workstation (one screen, keyboard and mouse among the pair).
+    The programmer at the keyboard is usually called the "driver", the other, also actively involved in the programming
+    task but focusing more on overall direction is the "navigator";
+    it is expected that the programmers swap roles every few minutes or so.
+
 ----
 
 :id: retroOne
@@ -237,13 +244,20 @@ Session Two
 Basics
 ======
 
-    * Ping-pong or even EVIL ping-pong
+    * Ping-pong
+
+    * EVIL ping-pong
 
     * Mute pairing
 
     * No mouse
 
-    * Paper only :)
+    * Paper for the first 10 minutes
+
+.. note::
+
+    Ping-pong - one person writes the tests, the other person writes the implementation code. Add EVIL
+
 
 ----
 
@@ -269,15 +283,13 @@ Out of the comfort zone
 
     * Immutables only, please
 
-    * Primitive obsession
-
-    * Tell - Don’t Ask
-
     * No conditional statements
 
-    * Only 4 lines per method
+    * No naked primitives
 
     * No loops
+
+    * Only 4 lines per method
 
 ----
 
@@ -305,8 +317,8 @@ Session Four
 Session Four
 ============
 
-Practice TDD
-============
+Practice
+========
 
     * TDD as if you meant it
 
@@ -316,11 +328,23 @@ Practice TDD
 
 .. note::
 
-    TODO - add some description
-
     * TDD as if you meant it
 
     * Object calisthenics
+
+    http://williamdurand.fr/2013/06/03/object-calisthenics/
+
+    9 rules:
+    -- Only One Level Of Indentation Per Method
+    -- Don't Use The ELSE Keyword
+    -- Wrap All Primitives And Strings
+    -- First Class Collections
+    -- One Dot Per Line
+    -- Don't Abbreviate
+    -- Keep All Entities Small
+    -- No Classes With More Than Two Instance Variables
+    -- No Getters/Setters/Properties
+
 
 ----
 
@@ -344,26 +368,27 @@ Session Five
 Let's play
 ==========
 
-    * Verbs instead of Nouns
-
     * Mute with Find the Loophole
 
     * Code Swap
 
+    * Hexagonal Game of Life (H:B2/S34)
+
 .. note::
 
-    TODO Add more about "Verbs instead of Nouns"
-    Mute with Find the Loophole
+    * Mute with Find the Loophole
 
     This is a pairing exercise. It is actually three pairing techniques brought together in one exercise.
 
-    * Ping-pong - one person writes the tests, the other person writes the implementation code
-    * Mute - nobody can talk
-    * Find the Loophole - (AKA evil coder) the implementation person purposely writes the wrong algorithm that still makes the tests turn green. The key is that they have to keep the code very clean all the while. So, no big long if statements parsing on the input parameters.
+    -- Ping-pong - one person writes the tests, the other person writes the implementation code
+    -- Mute - nobody can talk
+    -- Evil coder  - the implementation person purposely writes the wrong algorithm that still makes the tests turn green.
+    The key is that they have to keep the code very clean all the while. So, no big long if statements parsing on the input parameters.
 
-    Code swap
+    * Code swap
 
-    Each developer starts at their machine and is given 20 minutes to solve the kata. At the end of twenty minutes someone calls time and everyone gets up from their machine and rotates to the next workstation.
+    Each developer starts at their machine and is given 20 minutes to solve the kata.
+    At the end of twenty minutes someone calls time and everyone gets up from their machine and rotates to the next workstation.
 
 ----
 
