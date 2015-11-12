@@ -326,6 +326,8 @@ Practice
 
     * NO TDD!!!
 
+http://git.io/v8jFe
+
 .. note::
 
     * TDD as if you meant it
@@ -373,6 +375,8 @@ Let's play
     * Code Swap
 
     * Hexagonal Game of Life (H:B2/S34)
+
+http://git.io/v8jFu
 
 .. note::
 
