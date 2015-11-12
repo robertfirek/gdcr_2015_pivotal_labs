@@ -326,7 +326,7 @@ Practice
 
     * NO TDD!!!
 
-http://git.io/v8jFe
+http://git.io/v8jbE
 
 .. note::
 
@@ -376,7 +376,7 @@ Let's play
 
     * Hexagonal Game of Life (H:B2/S34)
 
-http://git.io/v8jFu
+http://git.io/v8jbY
 
 .. note::
 
